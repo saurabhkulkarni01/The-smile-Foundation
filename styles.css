@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.fa-bars{
+    color: white;
+}
+.fa-linkedin{
+    margin-right: 4px;
+}
+a{
+    color: #05035f !important;
+    text-decoration: none !important;
+}
+.btn:hover{
+    background-color: rgb(92, 186, 230) !important;
+}
+.btn-lg a{
+    font-size: 1.6rem;
+}
+.btn-lg{
+    margin-top: 8px;
+}
+h3{
+    font-size: 2.5rem !important;
+    color: white;
+    text-shadow: 3px 2px rgba(0,0,0,0.5);
+}
+.container-fluid a.logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+.mynav{
+    background: linear-gradient(to right, #2c4973, rgba(0,0,0,0)),url(GettyImages-1220079832_header-1024x575.jpg);
+    padding-bottom: 50px;
+    background-size: cover;
+}
+.heading{
+    width: 30vw;
+    margin-left: 10%;
+    padding-top: 2%;
+    text-align: center;
+}
+.spread{
+    font-size: 3rem;
+    color: white;
+    
+}
+.lov{
+    font-size: 3rem;
+    color: white;
+    
+    
+    
+}
+.donations{
+    font-size: 2rem;
+    margin: 50px;
+    text-align: center;
+    text-shadow: 2px 2px rgba(158, 163, 163, 0.5);
+    color: #090794;
+}
+.card{
+    margin-left: 1%;
+}
+.row{
+    margin-bottom: 20px;
+}
+@media (max-width:700px){
+    .mynav{
+        background-size: cover;
+        background-position: center;
+    }
+    .heading{
+        width: 100vw;
+        margin: auto;
+        padding-top: 2%;
+        text-align: center;
+    }
+    .card{
+        margin: 2% 1%;
+    }
+}
+@media (max-width:900px){
+    .heading{
+        width: 100vw;
+        margin: auto;
+        padding-top: 2%;
+        text-align: center;
+    }
+    .card{
+        margin: 2% 1%;
+    }
+}
